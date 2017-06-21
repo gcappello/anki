@@ -13,15 +13,13 @@ public class Card {
         this.question = question;
         this.answer = answer;
         switch(status){
-            case "RED":
-                this.status = Box.RED;
-                break;
             case "ORANGE":
                 this.status = Box.ORANGE;
                 break;
             case "GREEN":
                 this.status = Box.GREEN;
                 break;
+            case "RED":
             default:
                 this.status = Box.RED;
         }
